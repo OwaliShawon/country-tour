@@ -1,0 +1,8 @@
+.country{
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 5px;
+    text-align: center;
+    width: 300px;
+}
