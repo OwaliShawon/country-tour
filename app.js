@@ -9,15 +9,6 @@ const displayCountries = countries => {
         const countryDiv = document.createElement('div');
         countryDiv.className = 'country';
 
-        // const h3 = document.createElement('h3');
-        // h3.innerText = country.name;
-        // countryDiv.appendChild(h3);
-
-        // const p = document.createElement('p');
-        // p.innerText = country.capital;
-        // countryDiv.appendChild(p);
-
-
         const countryInfo = `
             <h3 id = "country-name">${country.name}</h3>
             <p>${country.capital}</p>
